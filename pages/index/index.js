@@ -146,6 +146,8 @@ Page({
                     showallDisplay: "block",
                     displaySwiper: "block"
                 });
+
+          console.log('postsShowSwiperList=' + JSON.stringify(self.data.postsShowSwiperList))
                 
             }
             else {
